@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
 }
@@ -70,7 +74,17 @@ header {
   font-size: 16px;
   line-height: 150%;
   color: #fdfdfd;
-  transition: 0.3s
+  transition: 0.3s;
+}
+
+#btn-1 a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fdfdfd;
+  transition: 0.3s;
+  text-decoration: none;
+
 }
 
 #btn-1:hover {
