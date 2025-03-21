@@ -70,6 +70,7 @@ header {
   font-size: 16px;
   line-height: 150%;
   color: #fdfdfd;
+  transition: 0.3s
 }
 
 #btn-1:hover {
@@ -272,6 +273,7 @@ header {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .section-2 button:active {
@@ -414,6 +416,7 @@ header {
   padding: 40px;
   width: 600px;
   height: 325px;
+  transition: 0.5s;
   gap: 20px;
 }
 
@@ -499,6 +502,7 @@ header {
   font-size: 16px;
   line-height: 150%;
   color: #fdfdfd;
+  transition: 0.3s
 }
 
 .section-6 .text .signdiv button:hover {
