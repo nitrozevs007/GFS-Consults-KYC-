@@ -417,6 +417,10 @@ header {
   gap: 20px;
 }
 
+.section-5 ul .outer-li:hover {
+  background: #edf1ee;
+}
+
 .section-5 ul .outer-li h5 {
   font-weight: 700;
   font-size: 26px;
@@ -496,6 +500,17 @@ header {
   line-height: 150%;
   color: #fdfdfd;
 }
+
+.section-6 .text .signdiv button:hover {
+  box-shadow: 0 3px 5px 5px rgba(31, 64, 55, 0.2);
+  transform: scale(1.05);
+}
+
+.section-6 .text .signdiv button:active {
+  box-sizing: 0 0 5px 5px rgba(31, 64, 55, 0.2);
+  transform: translateZ(2px);
+}
+
 
 .section-6 .text .last {
   font-weight: 500;
