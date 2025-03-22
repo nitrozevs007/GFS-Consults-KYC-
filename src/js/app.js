@@ -30,16 +30,35 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
-  const menu = document.getElementById("nav-bar");
-  const menuIcon = document.getElementById("menu-btn");
-  const closeIcon = document.getElementById("close-btn");
+    const menu = document.getElementById("nav-bar");
+    const menuIcon = document.getElementById("menu-btn");
+    const closeIcon = document.getElementById("close-btn");
 
-  menuIcon.addEventListener("click", function () {
-      menu.classList.toggle("active");
-  });
+    menu.style.transition = "opacity 0.5s ease";
 
-  closeIcon.addEventListener("click", function () {
-      menu.classList.remove("active");
-  });
+    menuIcon.addEventListener("click", function () {
+        menu.style.display = "block";
+        setTimeout(() => {
+            menu.style.opacity = "1";
+        }, 100);
+
+        menuIcon.style.display = "none";
+        closeIcon.style.display = "block";
+    });
+
+    closeIcon.addEventListener("click", function () {
+        menu.style.opacity = "0";
+        setTimeout(() => {
+            menu.style.display = "none";
+        }, 500); 
+
+        menuIcon.style.display = "block";
+        closeIcon.style.display = "none";
+    });
 });
+
+

@@ -618,19 +618,24 @@ footer .bottom ul li a {
     display: none;
   }
 
-  .nav-bar {
+  header .nav-bar {
+    position: absolute;
     margin-top: 30px;
-    display: none;
     background: white;
-    padding: 20px;
-    flex-direction: column;
+    padding: 40px;
     transition: right 0.3s ease;
     align-items: start;
+    z-index: 2;
     width: 100%;
   }
 
+.nav-bar li {
+  margin-bottom: 8px;
+}
+
   .nav-bar.active {
     display: flex;
+
   }
 
   .nav-bar button {
