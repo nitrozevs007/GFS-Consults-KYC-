@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.getElementById("menu-btn");
     const closeIcon = document.getElementById("close-btn");
 
-    menu.style.transition = "opacity 0.5s ease";
+    menu.style.transition = "opacity 0.3s ease";
 
     menuIcon.addEventListener("click", function () {
         menu.style.display = "block";
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         menu.style.opacity = "0";
         setTimeout(() => {
             menu.style.display = "none";
-        }, 500); 
+        }, 200); 
 
         menuIcon.style.display = "block";
         closeIcon.style.display = "none";
