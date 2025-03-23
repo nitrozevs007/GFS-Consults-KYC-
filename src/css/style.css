@@ -36,9 +36,9 @@ section {
 
 .container {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
   width: 100%;
-  max-width: 1240px;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,7 +240,6 @@ button {
 
 .slider {
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -631,6 +630,7 @@ footer .bottom ul li a {
     align-items: start;
     z-index: 2;
     width: 100%;
+    display: none;
   }
 
 .nav-bar li {
