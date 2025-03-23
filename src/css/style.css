@@ -58,6 +58,10 @@ header .top button {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+}
+
 .nav-bar {
   display: flex;
   align-items: center;
